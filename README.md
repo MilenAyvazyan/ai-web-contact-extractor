@@ -37,7 +37,7 @@ Python-dotenv: Secure environment variable management.
 1. Clone the repository
 Bash
 git clone https://github.com/MilenAyvazyan/ai-web-contact-extractor.git
-cd YOUR_REPO_NAME
+cd ai-web-contact-extractor
 2. Install dependencies
 Bash
 pip install -r requirements.txt

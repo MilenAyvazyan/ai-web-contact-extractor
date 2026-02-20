@@ -22,6 +22,17 @@ Location and Contact info.
 
 Structured Output: Returns the final result in a strictly formatted JSON object.
 
+## Logical Workflow
+1. Navigation via Playwright.
+
+2. Conversion to Markdown.
+
+3. Link identification via AI.
+
+4. Deep crawling of relevant pages.
+
+5. Final data extraction to JSON.
+
 ## Tech Stack
 Python: Core logic.
 

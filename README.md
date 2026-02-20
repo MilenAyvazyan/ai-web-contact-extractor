@@ -1,7 +1,7 @@
-AI-Powered Web Lead Extractor 
+# AI-Powered Web Lead Extractor 
 This project is an automated tool designed to crawl websites, identify relevant internal pages, and extract structured contact information using Playwright and OpenAI GPT-4o.
 
-📝 Project Overview
+## Project Overview
 The program automates the process of gathering business intelligence by following these steps:
 
 Web Navigation: Uses the Playwright library to navigate to a user-provided URL.
@@ -22,7 +22,7 @@ Location and Contact info.
 
 Structured Output: Returns the final result in a strictly formatted JSON object.
 
-🛠 Tech Stack
+## Tech Stack
 Python: Core logic.
 
 Playwright: Headless browser automation.
@@ -33,7 +33,7 @@ Markdownify: HTML to Markdown conversion.
 
 Python-dotenv: Secure environment variable management.
 
-🚀 Installation & Setup
+## Installation & Setup
 1. Clone the repository
 Bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
@@ -45,25 +45,11 @@ playwright install chromium
 3. Configuration
 Create a .env file in the root directory and add your OpenAI API key:
 
-Code snippet
+## Code snippet
 OPENAI_API_KEY=your_actual_api_key_here
 4. Run the program
 Bash
 python task.py
-📊 Example Output
-The tool produces a structured JSON output like the following:
 
-JSON
-{
-  "emails": ["info@company.com", "founder@company.com"],
-  "contacts": [
-    {
-      "name": "John Doe",
-      "role": "CEO & Founder",
-      "email": "john.doe@company.com"
-    }
-  ],
-  "locations": ["Yerevan, Armenia"]
-}
-Security Note
+## Security Note
 This project uses .env files to manage sensitive API keys. The .gitignore file is configured to prevent your private keys from being uploaded to GitHub.

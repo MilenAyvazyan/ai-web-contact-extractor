@@ -36,7 +36,7 @@ Python-dotenv: Secure environment variable management.
 ## Installation & Setup
 1. Clone the repository
 Bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/MilenAyvazyan/ai-web-contact-extractor.git
 cd YOUR_REPO_NAME
 2. Install dependencies
 Bash
